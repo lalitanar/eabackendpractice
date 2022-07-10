@@ -23,12 +23,21 @@ https://documenter.getpostman.com/view/2345572/UzJQoDVn
 6. Prepare authentication by using Sanctum and middleware
 7. Create these APIs: Create/Read/Update/Delete eacourses
    - Show all courses: GET http://127.0.0.1:8000/api/eacourses
+     - Body Message:
+     ![show all courses](https://github.com/lalitanar/eabackendpractice/blob/1578db239a3bc484f2a52f415770b298d811f5a0/showallcourses.png) 
+     
    - Find a course by id: GET http://127.0.0.1:8000/api/eacourses/3
+     - Body Message:
+     ![find by id](https://github.com/lalitanar/eabackendpractice/blob/1578db239a3bc484f2a52f415770b298d811f5a0/findcourseid.png)
+     
    - Find by courseId: GET http://127.0.0.1:8000/api/eacourses/findcourseid/EGCO111
+     - Body Message:
+     ![find by id](https://github.com/lalitanar/eabackendpractice/blob/1578db239a3bc484f2a52f415770b298d811f5a0/findcourseid2.png)
+     
    - Insert course: http://127.0.0.1:8000/api/eacourses
      - Require Authentication to access this api.
-     - Body:
-     ![]() 
+     - Body Message:
+     ![show all courses](https://github.com/lalitanar/eabackendpractice/blob/1578db239a3bc484f2a52f415770b298d811f5a0/showallcourses.png) 
    - 
 
     
