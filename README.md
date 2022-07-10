@@ -4,8 +4,10 @@
 
 Create all APIs that are listed in the link below.
 
-**Postman API Document**
+** Postman API Document **
 https://documenter.getpostman.com/view/2345572/UzJQoDVn
+*** Postman Collection File ***
+https://github.com/lalitanar/eabackendpractice/blob/7ddbb168ff17356c9e64d1f4276289d09593f67e/EABackend%20Practice.postman_collection.json
 
 
 1. Create a new laravel project called "eacourses"
