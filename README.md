@@ -10,7 +10,7 @@ Create all APIs that are listed in the link below.
 - **Postman Collection File**
   - https://github.com/lalitanar/eabackendpractice/blob/7ddbb168ff17356c9e64d1f4276289d09593f67e/EABackend%20Practice.postman_collection.json
 
-
+## Steps
 1. Create a new laravel project called "eacourses"
 2. Create a database called "eapractice" and connect to the laravel project
 3. Create model and migrate migration file that can be used to create the table "eacourses" 
