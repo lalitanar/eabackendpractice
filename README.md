@@ -73,7 +73,7 @@ https://documenter.getpostman.com/view/2345572/UzJQoDVn
    - Auth: Logout: `POST http://127.0.0.1:8000/api/user`
      - Require authentication to access this api.
      - Body Message (Success):
-     ![logout](https://github.com/lalitanar/eabackendpractice/blob/1578db239a3bc484f2a52f415770b298d811f5a0/logut.png)
+     ![logout](https://github.com/lalitanar/eabackendpractice/blob/1578db239a3bc484f2a52f415770b298d811f5a0/logout.png)
      
      
 
