@@ -59,18 +59,18 @@ https://documenter.getpostman.com/view/2345572/UzJQoDVn
      
    - Register: `POST http://127.0.0.1:8000/api/register`
      - Body Message:
-     ![register](https://github.com/lalitanar/eabackendpractice/blob/1578db239a3bc484f2a52f415770b298d811f5a0/dregister.png)
+     ![register](https://github.com/lalitanar/eabackendpractice/blob/1578db239a3bc484f2a52f415770b298d811f5a0/register.png)
    
    - Login: `POST http://127.0.0.1:8000/api/login`
      - Body Message (Success):
      ![login](https://github.com/lalitanar/eabackendpractice/blob/1578db239a3bc484f2a52f415770b298d811f5a0/login.png)
      
-   - User: `GET http://127.0.0.1:8000/api/user`
+   - Auth: User: `GET http://127.0.0.1:8000/api/user`
      - Require authentication to access this api.
      - Body Message (Success):
      ![user](https://github.com/lalitanar/eabackendpractice/blob/1578db239a3bc484f2a52f415770b298d811f5a0/user.png)
      
-   - Logout: `GET http://127.0.0.1:8000/api/user`
+   - Auth: Logout: `POST http://127.0.0.1:8000/api/user`
      - Require authentication to access this api.
      - Body Message (Success):
      ![logout](https://github.com/lalitanar/eabackendpractice/blob/1578db239a3bc484f2a52f415770b298d811f5a0/logut.png)
