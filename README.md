@@ -37,26 +37,43 @@ https://documenter.getpostman.com/view/2345572/UzJQoDVn
    - Auth: Insert course: `POST http://127.0.0.1:8000/api/eacourses`
      - Require authentication to access this api.
      - Body Message:
-     ![show all courses](https://github.com/lalitanar/eabackendpractice/blob/1578db239a3bc484f2a52f415770b298d811f5a0/insertcourse.png) 
+     ![insert course](https://github.com/lalitanar/eabackendpractice/blob/1578db239a3bc484f2a52f415770b298d811f5a0/insertcourse.png) 
      
    - Auth: Update course by id: `PUT http://127.0.0.1:8000/api/eacourses/11`
      - Require authentication to access this api.
      - Body Message:
-     ![show all courses](https://github.com/lalitanar/eabackendpractice/blob/1578db239a3bc484f2a52f415770b298d811f5a0/updatecourse.png)
+     ![update courses](https://github.com/lalitanar/eabackendpractice/blob/1578db239a3bc484f2a52f415770b298d811f5a0/updatecourse.png)
      
    - Auth: Delete course by id: `DELETE http://127.0.0.1:8000/api/eacourses/3`
      - Require authentication to access this api.
      - Body Message:
-     ![show all courses](https://github.com/lalitanar/eabackendpractice/blob/1578db239a3bc484f2a52f415770b298d811f5a0/deletecourseid.png)
+     ![delete by id](https://github.com/lalitanar/eabackendpractice/blob/1578db239a3bc484f2a52f415770b298d811f5a0/deletecourseid.png)
      
    - Auth: Delete course by courseId: `DELETE http://127.0.0.1:8000/api/eacourses/deletecourseid/EGCO111`
      - Require authentication to access this api.
      - Body Message (Success):
-     ![show all courses](https://github.com/lalitanar/eabackendpractice/blob/1578db239a3bc484f2a52f415770b298d811f5a0/deletecourseid2.png)
+     ![delete by courseId when success](https://github.com/lalitanar/eabackendpractice/blob/1578db239a3bc484f2a52f415770b298d811f5a0/deletecourseid2.png)
      
-     - Body Message (Fail:
-     ![show all courses](https://github.com/lalitanar/eabackendpractice/blob/1578db239a3bc484f2a52f415770b298d811f5a0/deletecourseid2.png)
+     - Body Message (Fail):
+     ![delete by courseId when fail](https://github.com/lalitanar/eabackendpractice/blob/1578db239a3bc484f2a52f415770b298d811f5a0/deletecourseid3.png)
      
+   - Register: `POST http://127.0.0.1:8000/api/register`
+     - Body Message:
+     ![register](https://github.com/lalitanar/eabackendpractice/blob/1578db239a3bc484f2a52f415770b298d811f5a0/dregister.png)
+   
+   - Login: `POST http://127.0.0.1:8000/api/login`
+     - Body Message (Success):
+     ![login](https://github.com/lalitanar/eabackendpractice/blob/1578db239a3bc484f2a52f415770b298d811f5a0/login.png)
+     
+   - User: `GET http://127.0.0.1:8000/api/user`
+     - Require authentication to access this api.
+     - Body Message (Success):
+     ![user](https://github.com/lalitanar/eabackendpractice/blob/1578db239a3bc484f2a52f415770b298d811f5a0/user.png)
+     
+   - Logout: `GET http://127.0.0.1:8000/api/user`
+     - Require authentication to access this api.
+     - Body Message (Success):
+     ![logout](https://github.com/lalitanar/eabackendpractice/blob/1578db239a3bc484f2a52f415770b298d811f5a0/logut.png)
      
      
 
