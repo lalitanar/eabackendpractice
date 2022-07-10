@@ -16,4 +16,6 @@ https://documenter.getpostman.com/view/2345572/UzJQoDVn
    - field 3: courseName (string)
    - field 4: couresCredit (tinyInt, default = 3)
    - field 5: timestamp
+   - When you migrate this file to database, Table "eacourse" in database will have 6 fields: id, courseId, courseCredit, created_at, updated_at
+
     
